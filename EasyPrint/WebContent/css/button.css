@@ -1,4 +1,25 @@
 @CHARSET "UTF-8";
+
+
+body{
+	background: rgba(147,206,222,1);
+	background: -moz-linear-gradient(top, rgba(147,206,222,1) 24%, rgba(147,206,222,1) 67%, rgba(73,165,191,1) 69%, rgba(76,167,192,1) 71%, rgba(117,189,209,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(24%, rgba(147,206,222,1)), color-stop(67%, rgba(147,206,222,1)), color-stop(69%, rgba(73,165,191,1)), color-stop(71%, rgba(76,167,192,1)), color-stop(100%, rgba(117,189,209,1)));
+	background: -webkit-linear-gradient(top, rgba(147,206,222,1) 24%, rgba(147,206,222,1) 67%, rgba(73,165,191,1) 69%, rgba(76,167,192,1) 71%, rgba(117,189,209,1) 100%);
+	background: -o-linear-gradient(top, rgba(147,206,222,1) 24%, rgba(147,206,222,1) 67%, rgba(73,165,191,1) 69%, rgba(76,167,192,1) 71%, rgba(117,189,209,1) 100%);
+	background: -ms-linear-gradient(top, rgba(147,206,222,1) 24%, rgba(147,206,222,1) 67%, rgba(73,165,191,1) 69%, rgba(76,167,192,1) 71%, rgba(117,189,209,1) 100%);
+	background: linear-gradient(to bottom, rgba(147,206,222,1) 24%, rgba(147,206,222,1) 67%, rgba(73,165,191,1) 69%, rgba(76,167,192,1) 71%, rgba(117,189,209,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#75bdd1', GradientType=0 );
+	color:#000;
+}
+
+.button_index{
+	text-align:center;
+	vertical-align:middle;
+	padding-top:6px;
+}
+
+
 .button{
 	height:2em;
 	padding:15px 50px;
